@@ -2,7 +2,6 @@
 Pagina Gamer
 # Digital Dreams
 
-![Logo](img/icono.jpg)
 
 ## Descripción
 
