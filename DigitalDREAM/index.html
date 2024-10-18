@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/icono.jpg" type="image/icon"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/estilo.css">
+    <script src="js/app.js" async></script>
+    <script src="js/index.js" async></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Honk&display=swap" rel="stylesheet">
+    <script>(function(w, d) { w.CollectId = "6710570248b2ba247e87f152"; var h = d.head || d.getElementsByTagName("head")[0]; var s = d.createElement("script"); s.setAttribute("type", "text/javascript"); s.async=true; s.setAttribute("src", "https://collectcdn.com/launcher.js"); h.appendChild(s); })(window, document);</script>
+    <title>DIGITAL DREAMS</title>
+</head>
+<body>
+    <header>
+        <h1>BIENVENIDOS A DIGITAL DREAMS</h1>
+        <div>
+            <span class="eslogan">
+                Aqui podrás encontrar todos los productos relacionados con el mundo Gamer
+            </span>
+        </div>
+    </header>
+    <div class="navegacion">
+        <div class="btn-group shadow-0" role="group">
+            <button type="button" class="btn btn-link">Catálogo</button>
+            <button type="button" class="btn btn-link">Noticias</button>
+            <button type="button" class="btn btn-link">Contacto</button>
+            <div class="input-group input-group-sm ms-2"> 
+                <input type="search" id="search-input" class="form-control form-control-sm" placeholder="Buscar" aria-label="Buscar">
+                <button class="btn btn-primary btn-sm" type="button">
+                    <i class="fas fa-search"></i> 
+                </button>
+            </div>
+        </div>
+    </div>
+    <div class="d-flex justify-content-end">
+        <button class="logout">Logout</button>
+    </div>
+    <section class="contenedor">
+        <div class="contenedor-items">
+            <div class="producto">
+                
+                <span class="tipo">CASES</span>
+                
+            </div>
+            <div class="item">
+                <span class="titulo-item">Corsair 4000D Airflow</span>
+                <img src="img/CORSA4000.png" alt="" class="img-item">
+                <span class="precio-item">$1.200.000</span>
+                <span class="especificacion-item">El CORSAIR 4000D AIRFLOW es un chasis ATX semitorre distintivo, optimizado para 
+                    disponer de un elevado caudal de aire, con una sencilla gestión del cableado y dos ventiladores 
+                    CORSAIR AirGuide de 120 mm incluidos para que la refrigeración sea excepcional.</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">NZXT H5 Flow Compact</span>
+                <img src="img/H5FLOW.png" alt="" class="img-item">
+                <span class="precio-item">$500.999</span>
+                <span class="especificacion-item">El H5 Flow RGB cuenta con dos ventiladores F140 RGB Core preinstalados y dos ventiladores
+                    F120Q Quiet Airflow, por lo que esta torre intermedia
+                    compacta se mantiene más fresca que fría. Con un rendimiento térmico optimizado y una gestión de
+                    cables intuitiva, el H5 Flow es un chasis ideal para la mayoría de las construcciones.</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">Aerocool Dryft V2</span>
+                <img src="img/casedrift.jpg" alt="" class="img-item">
+                <span class="precio-item">$489.000</span>
+                <span class="especificacion-item">El diseño único permite que los paneles frontal y lateral de vidrio templado proporcionen una visión perfectamente clara de su hardware. Diseñado centrándose en
+                    una estética elegante, iluminación RGB personalizable, refrigeración mejorada y fácil gestión de cables, Dryft es la elección perfecta para los jugadores que buscan estilo y funcionalidad.
+                </span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="producto">
+                
+                <span class="tipo">CPU</span>
+                
+            </div>
+            <div class="item">
+                <span class="titulo-item">AMD Ryzen 5 5600 AM4</span>
+                <img src="img/Ryzen-5-5600-1.jpg" alt="" class="img-item">
+                <span class="precio-item">$560.000</span>
+                <span class="especificacion-item">El procesador AMD Ryzen 5 5600 incluye seis núcleos de CPU, una velocidad de reloj base de 3,9 GHz.</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">Intel Core i5-14400F</span>
+                <img src="img/i51440.png" alt="" class="img-item">
+                <span class="precio-item">$970.000</span>
+                <span class="especificacion-item">Aumente su productividad, juegos y creación de contenido con el procesador Intel Core i5-14400F LGA 1700 de 10 núcleos y 2,5 GHz.</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">AMD Ryzen 7 5700X3D</span>
+                <img src="Img/R75700X3D.png" alt="" class="img-item">
+                <span class="precio-item">$489.000</span>
+                <span class="especificacion-item">Maximo rendimiento para tu juegos con 8 núcleos y 16 subprocesos de procesamiento, combinados con 100MB de caché, aumento máximo de 4.1 GHz y OC de memoria desbloqueado.</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="producto">
+                
+                <span class="tipo">TARJETAS DE VIDEO</span>
+                
+            </div>
+            <div class="item">
+                <span class="titulo-item">MSI GeForce RTX 4060 GAMING X GDDR6 8GB</span>
+                <img src="img/4060.webp" alt="" class="img-item">
+                <span class="precio-item">$1.400.000</span>
+                <span class="especificacion-item">Con una velocidad de 2.54 GHz Boost Clock. VRAM GDDR6 de 8 GB o 16 GB. <br>Promedio de Consumo de energía de 140 W mientras se juega.</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">POWER COLOR FIGHTER RX6600 8GB GDDR6</span>
+                <img src="img/POWER-COLOR-RX6600.png" alt="" class="img-item">
+                <span class="precio-item">$900.000</span>
+                <span class="especificacion-item">Basada en la arquitectura AMD RDNA™ 2, la tarjeta gráfica PowerColor Fighter Radeon™ RX 6600 cuenta con 28 unidades de cómputo, 32 MB del nuevo AMD Infinity Cache y 8 GB de memoria GDDR6 dedicada, y está diseñada para ofrecer velocidades de cuadros ultra altas y lo último en 1080p. experiencia de juego.</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">ASUS ROG STRIX RTX 4080 16GB GDDR6X</span>
+                <img src="img/4080.png" alt="" class="img-item">
+                <span class="precio-item">$6.256.000</span>
+                <span class="especificacion-item">Su velocidad de reloj en modo OC alcanza los 2655 MHz, y su avanzado sistema de refrigeración incluye ventiladores con tecnología axial y una cámara de vapor patentada.</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="producto">
+            
+                <span class="tipo">MONITORES</span>    
+                
+            </div>
+            <div class="item">
+                <span class="titulo-item">>Monitor Gamer LG 24" UltraGear FHD IPS 180Hz 1ms (GTG) 24GS65F-B</span>
+                <img src="img/Monitor1.png" alt="" class="img-item">
+                <span class="precio-item">$790.000</span>
+                <span class="especificacion-item">Monitor profesional Viewedge de 24 pulgadas FHD de 165 hz: el monitor profesional Viewedge de 24 pulgadas 1920 x 1080p 165 Hz utiliza un panel IPS con relación de contraste de millones: 1, ángulo de visión de 178 grados, HDR 10 y tiempo de respuesta de 1 ms. El monitor para juegos CS24FK proporciona la mejor experiencia de juego.</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">KTC Monitor de computadora QHD 100Hz de 24 pulgadas IPS 2K</span>
+                <img src="img/monitor2.png" alt="" class="img-item">
+                <span class="precio-item">$470.000</span>
+                <span class="especificacion-item">Visuales nítidas con pantalla QHD] Con alta resolución 2K, este monitor de computadora 1440P de 24 pulgadas tiene una calidad de imagen sin igual y una nitidez impresionante. Eleva tu visualización con nuestra pantalla QHD de vanguardia. Este monitor de computadora hace que cada momento cobre vida con nuestra pantalla QHD.</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">Monitor Xiaomi Curved Gaming 34'' G34wqi Black 180hz</span>
+                <img src="img/monitor3.png"" alt="" class="img-item">
+                <span class="precio-item">$1.300.000</span>
+                <span class="especificacion-item">Ofrece una resolución de 3440 x 1440 para una experiencia visual impresionante en su pantalla ultraancha WQHD, proporcionando un horizonte expansivo. Con una respuesta rápida de 1 ms y una alta frecuencia de actualización de 180 Hz, garantiza un rendimiento fluido y sin interrupciones en tus juegos. La luz ambiental RGB y la curvatura dorada de 1500R añaden un toque estético y envolvente, haciendo que cada sesión de juego sea más inmersiva y atractiva.</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="producto">
+            
+                <span class="tipo">DIADEMAS</span>     
+            
+            </div>
+            <div class="item">
+                <span class="titulo-item">Diadema Gamer Inalámbrica Logitech G535 LIGHTSPEED</span>
+                <img src="img/DIADEMA1.png" alt="" class="img-item">
+                <span class="precio-item">$515.00</span>
+                <span class="especificacion-item">Los G535 se han diseñado para un rendimiento de baja latencia, libertad sin cables y comodidad prolongada para todas tus sesiones de gaming. Disfruta de la tecnología inalámbrica avanzada LIGHTSPEED, 33 horas de batería y transductores de 40 mm para un sonido nítido y contundente. Un peso de sólo 236 gramos, una diadema ajustable y almohadillas de espuma viscoelástica suave garantizan comodidad prolongada.</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">Diadema Gamer Inalámbrica Astro A30 PlayStation 5 y PC / MAC</span>
+                <img src="img/diadema2.png" alt="" class="img-item">
+                <span class="precio-item">$830.000</span>
+                <span class="especificacion-item">Controla toda tu experiencia de audio y configura el A30 directamente desde tu teléfono. Administre su mezcla de audio, ecualizador y personalice cada aspecto del paisaje sonoro del A30 con un toque en la aplicación móvil gratuita Logitech G, compatible con dispositivos móviles iOS y Android.</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">Diadema Gamer Primus ARCUS 110T Edición AHSOKA</span>
+                <img src="img/diadema3.png" alt="" class="img-item">
+                <span class="precio-item">$100.000</span>
+                <span class="especificacion-item">Su velocidad de reloj en modo OC alcanza los 2655 MHz, y su avanzado sistema de refrigeración incluye ventiladores con tecnología axial y una cámara de vapor patentada.</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="producto">
+                <h2>
+                    <span class="tipo">MOUSE</span>       
+                </h2>
+            </div>
+            <div class="item">
+                <span class="titulo-item">ASUS ROG Spatha X, 12 botones programables, 19,000 DPI</span>
+                <img src="img/mouse1.png" alt="" class="img-item">
+                <span class="precio-item">$545.000</span>
+                <span class="especificacion-item">Máxima precisión: el sensor óptico de 19,000 DPI proporciona una precisión inigualable. La función DPI On-The-Scroll le permite ajustar fácilmente la sensibilidad del mouse inalámbrico sin acceder al software.</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">MOUSE GAMER RGB LOGITECH G203 LIGHTSYNC / 8000DPI</span>
+                <img src="img/mouse2.png" alt="" class="img-item">
+                <span class="precio-item">$130.000</span>
+                <span class="especificacion-item">G203 se ha diseñado para funcionar a la perfección en cualquier sistema, pero si quieres controles aún más precisos, puedes descargar gratis un software de personalización que es fácil de usar y configurar. El software de personalización G HUB permite personalizarlo todo: la iluminación, la sensibilidad y los comandos de los botones del mouse G203.</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">Mouse Lighting Gamer Inalambrico Iron Man  / 1600DPI</span>
+                <img src="img/mouse3.png" alt="" class="img-item">
+                <span class="precio-item">$150.000</span>
+                <span class="especificacion-item">Su sensor Bluetrack te permitirá usarlo en cualquier superficie, brindará más velocidad y detectará las órdenes con mayor exactitud. La funcionalidad al alcance de tu mano.El sistema de detección de movimiento óptico te permitirá mover el cursor de una manera más precisa y sensible que en los sistemas tradicionales.</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+        </div>
+        <!-- Carrito de Compras -->
+        <div class="carrito" id="carrito">
+            <div class="header-carrito">
+                <h2>Tu Carrito</h2>
+            </div>
+
+            <div class="carrito-items"> 
+            </div>
+            <div class="carrito-total">
+                <div class="fila">
+                    <strong>Tu Total</strong>
+                    <span class="carrito-precio-total">
+                        $120.000,00
+                    </span>
+                </div>
+                <button class="btn-pagar">Pagar <i class="fa-solid fa-bag-shopping"></i> </button>
+            </div>
+        </div>
+    </section>
+    <!-- Pie de página -->
+    <footer class="bg-dark text-white mt-5 p-4 text-center">
+        <div class="container">
+            <p>&copy; 2024 Digital Dreams. Todos los derechos reservados.</p>
+            <div>
+                <!-- Facebook -->
+                <a class="btn text-white" data-mdb-ripple-init style="background-color: #3b5998;" href="#!" role="button">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <!-- Google -->
+                <a class="btn text-white" data-mdb-ripple-init style="background-color: #dd4b39;" href="#!" role="button">
+                <i class="fab fa-google"></i>
+                </a>
+                <!-- Instagram -->
+                <a class="btn text-white" data-mdb-ripple-init style="background-color: #ac2bac;" href="#!" role="button">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </div>
+            <p>
+                <a href="#" class="text-white">Política de Privacidad</a> | 
+                <a href="#" class="text-white">Términos de Servicio</a>
+            </p>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
